@@ -41,7 +41,7 @@ ul p{
   background-color: gray;
   padding: 3rem 5rem;
   border-radius: 20px;
-  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
 }
 @media (max-width:500px) {
   ul p{
