@@ -1,0 +1,44 @@
+*{
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app{
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+ul{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0;
+  font-weight: 600;
+}
+ul p{
+  font-size: 16px;
+  
+}
+
+.rightAns{
+  color: green;
+}
+.wrongAns{
+  color: red;
+  margin-top: -15px;
+}
+.score{
+  color: green;
+  margin-bottom: 20px;
+}
+.gameOver{
+  background-color: gray;
+  padding: 3rem 5rem;
+  border-radius: 20px;
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);}
